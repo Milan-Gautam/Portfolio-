@@ -1,0 +1,181 @@
+html {
+  height: 100%;
+  width: 100%;
+  margin:0;
+  padding:0;}
+html{
+  scroll-behavior: smooth;
+}
+body{
+  background-color: #444443;
+  font-family: 'Roboto', sans-serif;
+}
+nav{
+  display:flex;
+  align-items:center;
+  justify-content:space-around;
+  height: 5%;
+  width: 100%;
+  background-color: #1a1818;
+
+
+
+  }
+nav ul{
+  display: flex;
+  justify-content:center;
+  
+}
+nav ul li{
+ list-style:none;
+  padding:0 7px;
+  font-size:15px;
+  font-weight:bold;
+  color:white;
+}
+nav ul li a{
+  text-decoration:none;
+  color:white;
+  }
+nav ul li a:hover{
+  color:blue;
+  font-size:17px;
+  
+}
+main{
+  color:white;
+}
+h1{
+  margin:5px;
+  padding:8px;
+  }
+.button{
+   border-radius:40px;
+    margin:15px;
+    padding:8px;
+    background-color:#d3d3d3;
+  box-sizing:border-box;
+
+
+
+
+  }
+.hr{
+  height:1px
+  width:50%
+  border:0;
+  backgrond-color: white;
+  color:blue;
+}
+.text-grey{
+  color:grey;
+}
+#element{
+  color:yellow;
+  text-align:center;
+  margin:1%;
+  justify-content:center;
+  font-size:25px;
+  font-weight:bold;
+  padding: 5px 5px 5px 70px;
+  width:80%;
+
+
+
+
+
+
+  }
+.icon {
+  height:50px;
+  }
+#id h4{
+  text-align:center;
+  }
+.exbox{
+  border:1px solid transaprent;
+  }
+.table{
+  border-collapse:collapse;
+  justify-content: space-between;
+  border:none;
+}
+.td{
+  padding-right:100px;
+  justifiy-content:space-between;
+  
+  margin:5px;
+
+  }
+#img{
+  border:none;
+  border-radius:50%;
+  text-align:center;
+  justifiy-content:space-between;
+  }
+.image{
+  border-radius:50%;
+  padding:0;
+  margin:3px;
+  }
+#myservice{
+  text-align:center;
+  border:1px solid purple;
+  border-radius:20px;
+  margin:35px;
+  
+  
+  }
+#myservice:hover{
+  background:#ff004f;
+  transform: translate(0,-10px);
+}
+#person{
+  border-radius: 60px;
+  
+  }
+#bell{
+  border-radius:50px;
+  }
+.exbox{
+  border:2px solid white;
+  border-radius:20px;
+  }
+.btn{
+  color:white;
+  background-color:#f9004d;
+  border:2px solid white;
+  text-decoration:none;
+  transition:.4s;
+  font-weight:bold;
+  border-radius:20px;
+  padding:5px;
+  }
+.btn:hover{
+  background-color:transparent;
+  border:2px solid #f9004d;
+  cursor:pointer;
+  }
+#myservice{
+height:220px;
+  }
+form label {
+  font-size:18px;
+  font-weight:bold;
+  font-family: 'Roboto', sans-serif;
+  }
+#hire{
+  text-decoration:none;
+   border-radius:40px;
+    margin:15px;
+    padding:8px;
+    background:white;
+  font-weight:bold;
+  font-family: 'Roboto', sans-serif;
+  box-sizing:border-box;
+  border:1px solid purple;
+  }
+.form-name{
+  height:30px;
+  width:200px;
+    }
